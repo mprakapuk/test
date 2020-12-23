@@ -43,9 +43,6 @@ class MainComponent extends React.Component {
         return (
             <div>
                 <div>
-                    <input type='text' placeholder='First' onChange={(event) => { dispatch(changeFirstName(event.target.value)) }} />
-                </div>
-                <div>
                     <input type='text' placeholder='Last' onChange={(event) => { dispatch(changeSecondName(event.target.value)) }} />
                 </div>
                 <div>
