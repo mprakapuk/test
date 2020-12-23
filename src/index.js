@@ -7,8 +7,8 @@ const initialState = {
     firstName: '1',
     secondName: '2'
 }
-const first = 'CHANGE_FIRST'
-const second = 'CHANGE_SECOND'
+const first = '1'
+const second = '2'
 
 const changeFirstName = (name) => {
     return ({
