@@ -4,8 +4,8 @@ import { createStore } from 'redux'
 import { connect, Provider } from 'react-redux'
 
 const initialState = {
-    firstName: 'first',
-    secondName: 'second'
+    firstName: '1',
+    secondName: '2'
 }
 const first = 'CHANGE_FIRST_NAME'
 const second = 'CHANGE_SECOND_NAME'
@@ -50,7 +50,7 @@ class MainComponent extends React.Component {
                 </div>
                 <div>
                     {firstName} + {secondName}
-                </div>                
+                </div>                         
             </div>
         )
     }
