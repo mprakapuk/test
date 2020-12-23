@@ -4,8 +4,8 @@ import { createStore } from 'redux'
 import { connect, Provider } from 'react-redux'
 
 const initialState = {
-    firstName: '1',
-    secondName: '2'
+    firstName: 'first',
+    secondName: 'second'
 }
 const first = 'CHANGE_FIRST'
 const second = 'CHANGE_SECOND'
