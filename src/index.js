@@ -50,6 +50,9 @@ class MainComponent extends React.Component {
                 </div>
                 <div>
                     {firstName} + {secondName}
+                </div>                
+                <div>
+                    {firstName} + {secondName}
                 </div>
             </div>
         )
